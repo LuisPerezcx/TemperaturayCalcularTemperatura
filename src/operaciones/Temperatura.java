@@ -7,7 +7,7 @@ public class Temperatura {
     public void mostrarFahrenheit(double celsius){
         System.out.println("Grados en fahrenheit: " + CalcularTemperatura.calcularFahrenheit(celsius));
     }
-    public static class CalcularTemperatura{
+    private static class CalcularTemperatura{
         public static double calcularCelsius(double fahrenheit){
             return (fahrenheit - 32) * 5/9;
         }

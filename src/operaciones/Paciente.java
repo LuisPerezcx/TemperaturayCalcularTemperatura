@@ -1,8 +1,8 @@
 package operaciones;
 
 public class Paciente {
-    String nombre;
-    int edad;
+    private String nombre;
+    private int edad;
     public double tempCelsius;
     public double tempFahrenheit;
 
