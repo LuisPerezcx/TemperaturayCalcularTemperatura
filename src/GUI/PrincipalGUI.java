@@ -40,7 +40,7 @@ public class PrincipalGUI extends JFrame{
                 case "Convertir a Celsius" ->{
                     String temp = txtFarenheit.getText();
                     float farenheit = Float.parseFloat(temp);
-                    float celsius = (farenheit - 32) * 5/9;
+                    float celsius = ((farenheit - 32) * 5/9);
                     txtCelsius.setText(String.valueOf(celsius));
                     txtFarenheit.setText("");
                 }
